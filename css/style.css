@@ -160,15 +160,15 @@ ul {
 }
 
 .nav-logo-img {
-  height: 50px;
+  height: 70px;
   width: auto;
   object-fit: contain;
-  border-radius: 6px;
+  border-radius: 8px;
   transition: var(--transition);
 }
 
 .navbar.scrolled .nav-logo-img {
-  height: 42px;
+  height: 56px;
 }
 
 .nav-links {
