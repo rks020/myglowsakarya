@@ -318,10 +318,35 @@ ul {
 
 .hero-title-my {
   color: var(--text-primary);
+  position: relative;
+  display: inline-block;
+  padding: 8px 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero-title-my::before,
+.hero-title-my::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--text-primary);
+}
+
+.hero-title-my::before {
+  top: 0;
+}
+
+.hero-title-my::after {
+  bottom: 0;
 }
 
 .hero-title-glow {
   color: var(--gold);
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .hero-title-sub {
